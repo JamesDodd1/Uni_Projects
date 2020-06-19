@@ -1,1 +1,13 @@
-Website to be created within a group of 8 using Scrum Methodology
+# Enterprise Web Software Development Coursework
+
+### Requirements
+Working within a group, follow Agile Scrum working practices to create a secure web-enabled role-based system for collecting ideas for improvement from staff in a large University
+
+### Key Features
+* Agile Scrum 
+* Database
+* PDOs
+
+### Language
+* HTML, CSS & PHP
+* SQL

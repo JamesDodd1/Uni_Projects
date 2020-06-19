@@ -1,7 +1,7 @@
 # Advanced Programming Coursework
 
 ### Requirements
-To create a dashboard for a train containing 3 different types of display indicators and running a simulated journey
+To create a dashboard for a train containing 3 different types of display indicators and simulated using a test journey
 
 ### Key Features
 * Inheritance & interfaces

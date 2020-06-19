@@ -1,9 +1,9 @@
 # Component Programming Coursework
 
 ### Requirements
-To create an automated holiday booking system, suggesting alternative data for fail requests
+To create an automated holiday booking system for desktop and web, which includes contraint checkings and suggests alternative dates for failed requests
 
-###  Key Features
+### Key Features
 * Database
 * Components
 * Web Application using ASP.NET

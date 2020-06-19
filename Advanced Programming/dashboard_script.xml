@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard_script>
+	<dashboard_event>
+		<type>speed</type>
+		<value>0</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>79</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>25</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>doors</type>
+		<value>true</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>15</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>1</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>2</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>3</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>4</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>5</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>78</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>25</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>doors</type>
+		<value>false</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>6</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>7</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>8</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>9</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>10</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>77</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>24</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>12</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>14</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>16</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>18</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>20</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>76</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>23</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>23</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>26</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>29</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>32</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>35</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>75</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>24</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>38</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>41</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>44</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>47</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>50</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>74</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>52</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>54</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>56</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>73</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>58</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>60</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>72</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>27</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>62</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>64</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>71</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>66</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>68</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>70</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>70</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>28</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>72</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>69</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>74</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>76</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>68</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>78</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>80</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>67</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>29</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>66</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>2</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>65</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>2</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>64</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>31</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>2</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>63</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>62</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>2</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>61</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>60</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>2</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>59</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>2</delay>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>58</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>79</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>78</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>57</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>77</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>76</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>75</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>56</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>30</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>74</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>73</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>55</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>72</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>71</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>70</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>54</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>31</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>68</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>66</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>53</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>64</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>62</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>60</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>52</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>30</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>59</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>58</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>51</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>57</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>56</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>55</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>50</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>53</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>51</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>49</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>49</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>47</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>45</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>48</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>43</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>41</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>39</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>37</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>35</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>47</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>29</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>34</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>33</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>32</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>31</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>30</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>46</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>29</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>28</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>27</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>26</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>25</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>30</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>24</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>23</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>22</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>21</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>20</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>45</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>29</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>19</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>18</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>17</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>16</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>15</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>28</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>14</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>13</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>12</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>11</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>10</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>fuel</type>
+		<value>45</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>26</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>9</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>8</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>7</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>6</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>5</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>25</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>4</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>3</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>2</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>1</value>
+	</dashboard_event>
+	
+	
+	
+	<delay>1</delay>
+	
+	<dashboard_event>
+		<type>speed</type>
+		<value>0</value>
+	</dashboard_event>
+	
+	<dashboard_event>
+		<type>temp</type>
+		<value>23</value>
+	</dashboard_event>
+	
+	
+	<delay>5</delay>
+	
+	<dashboard_event>
+		<type>doors</type>
+		<value>true</value>
+	</dashboard_event>
+</dashboard_script>

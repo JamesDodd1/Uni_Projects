@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Main View Controller" customClass="MainViewController" customModule="IndoorMaps" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vaC-w7-yN9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pR8-61-Hnu" userLabel="Map View" customClass="NMAMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehg-F6-Kd8" userLabel="Go">
+                                        <rect key="frame" x="314" y="796" width="50" height="50"/>
+                                        <state key="normal" title="GO"/>
+                                        <connections>
+                                            <action selector="goButton:" destination="BYZ-38-t0r" eventType="touchDown" id="dJH-WW-dwP"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Find Room..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fpe-Mm-oTR">
+                                        <rect key="frame" x="10" y="50" width="394" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aro-qB-wxT" userLabel="Clear">
+                                        <rect key="frame" x="50" y="816" width="50" height="50"/>
+                                        <state key="normal" title="CLEAR"/>
+                                        <connections>
+                                            <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S2a-R1-oOw"/>
+                                            <action selector="goButton:" destination="BYZ-38-t0r" eventType="touchDown" id="AsQ-5e-5Cr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Fpe-Mm-oTR" firstAttribute="top" secondItem="pR8-61-Hnu" secondAttribute="top" constant="50" id="BoO-Kk-3mG"/>
+                                    <constraint firstAttribute="trailing" secondItem="ehg-F6-Kd8" secondAttribute="trailing" constant="50" id="Dkn-lX-OxX"/>
+                                    <constraint firstItem="Aro-qB-wxT" firstAttribute="leading" secondItem="pR8-61-Hnu" secondAttribute="leading" constant="50" id="WQj-fw-GpK"/>
+                                    <constraint firstAttribute="bottom" secondItem="ehg-F6-Kd8" secondAttribute="bottom" constant="50" id="ZfA-gv-Wt7"/>
+                                    <constraint firstItem="Fpe-Mm-oTR" firstAttribute="leading" secondItem="pR8-61-Hnu" secondAttribute="leading" constant="10" id="eRi-Va-jwP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fpe-Mm-oTR" secondAttribute="trailing" constant="10" id="iZK-GV-sIU"/>
+                                    <constraint firstAttribute="bottom" secondItem="Aro-qB-wxT" secondAttribute="bottom" constant="50" id="qGJ-MT-Db5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pR8-61-Hnu" secondAttribute="trailing" id="6Ff-JP-Y8G"/>
+                            <constraint firstAttribute="bottom" secondItem="pR8-61-Hnu" secondAttribute="bottom" id="WCH-et-8jH"/>
+                            <constraint firstItem="pR8-61-Hnu" firstAttribute="top" secondItem="vaC-w7-yN9" secondAttribute="top" id="bgU-yP-U2t"/>
+                            <constraint firstItem="pR8-61-Hnu" firstAttribute="leading" secondItem="vaC-w7-yN9" secondAttribute="leading" id="zNV-Jj-m8z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="pR8-61-Hnu" id="bxj-V9-Nc4"/>
+                        <outlet property="roomName" destination="Fpe-Mm-oTR" id="aPM-bH-JXS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194.20289855072465" y="182.14285714285714"/>
+        </scene>
+    </scenes>
+</document>

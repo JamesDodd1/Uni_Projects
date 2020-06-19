@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/jamesdodd/Documents/Greenwich Uni/Systems Development/Term 2/Code/Front End/FrontEndSD/FrontEndSD/FrontEndSD.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+    <trk>
+        <name>Entrance</name>
+        <trkseg>
+            <trkpt lat="51.482222" lon="-0.005513"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482222" lon="-0.005513"></trkpt>
+            <trkpt lat="51.482316" lon="-0.005583"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482316" lon="-0.005583"></trkpt>
+            <trkpt lat="51.482401" lon="-0.005376"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>W002</name>
+        <trkseg>
+            <trkpt lat="51.482401" lon="-0.005376"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482401" lon="-0.005376"></trkpt>
+            <trkpt lat="51.482448" lon="-0.005406"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482448" lon="-0.005406"></trkpt>
+            <trkpt lat="51.482485" lon="-0.005304"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482316" lon="-0.005583"></trkpt>
+            <trkpt lat="51.482369" lon="-0.005626"></trkpt>
+        </trkseg>
+    </trk>
+    
+    
+    <trk>
+        <name>W018</name>
+        <trkseg>
+            <trkpt lat="51.482220" lon="-0.005883"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482316" lon="-0.005583"></trkpt>
+            <trkpt lat="51.482220" lon="-0.005883"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482220" lon="-0.005883"></trkpt>
+            <trkpt lat="51.482511" lon="-0.006138"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482511" lon="-0.006138"></trkpt>
+            <trkpt lat="51.482484" lon="-0.006233"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482511" lon="-0.006138"></trkpt>
+            <trkpt lat="51.482544" lon="-0.006061"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.482511" lon="-0.006138"></trkpt>
+            <trkpt lat="51.482684" lon="-0.006286"></trkpt>
+        </trkseg>
+    </trk>
+</gpx>

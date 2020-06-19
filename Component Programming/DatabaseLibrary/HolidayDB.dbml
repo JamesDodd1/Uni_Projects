@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="st2645h" Class="HolidayDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=sql-server;Initial Catalog=st2645h;Persist Security Info=True;User ID=st2645h" SettingsObjectName="DatabaseLibrary.Properties.Settings" SettingsPropertyName="st2645hConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Capacity" Member="Capacities">
+    <Type Name="Capacity">
+      <Column Name="CapacityID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Minimum" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EveryYear" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Peak" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Capacity_DepartmentCapacity" Member="DepartmentCapacities" ThisKey="CapacityID" OtherKey="CapacityID" Type="DepartmentCapacity" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Staff" Member="Staffs">
+    <Type Name="Staff">
+      <Column Name="StaffID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HolidayID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="DoB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Admin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Employed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Staff_HolidayCheck" Member="HolidayChecks" ThisKey="StaffID" OtherKey="StaffID" Type="HolidayCheck" />
+      <Association Name="Department_Staff" Member="Department" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="Department" IsForeignKey="true" />
+      <Association Name="Holiday_Staff" Member="Holiday" ThisKey="HolidayID" OtherKey="HolidayID" Type="Holiday" IsForeignKey="true" />
+      <Association Name="Role_Staff" Member="Role" ThisKey="RoleID" OtherKey="RoleID" Type="Role" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DepartmentName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Department_Staff" Member="Staffs" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="Staff" />
+      <Association Name="Department_DepartmentCapacity" Member="DepartmentCapacities" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="DepartmentCapacity" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DepartmentCapacity" Member="DepartmentCapacities">
+    <Type Name="DepartmentCapacity">
+      <Column Name="DepartmentCapacityID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CapacityID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Capacity_DepartmentCapacity" Member="Capacity" ThisKey="CapacityID" OtherKey="CapacityID" Type="Capacity" IsForeignKey="true" />
+      <Association Name="Department_DepartmentCapacity" Member="Department" ThisKey="DepartmentID" OtherKey="DepartmentID" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Holiday" Member="Holidays">
+    <Type Name="Holiday">
+      <Column Name="HolidayID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Entitlement" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Holiday_Staff" Member="Staffs" ThisKey="HolidayID" OtherKey="HolidayID" Type="Staff" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HolidayCheck" Member="HolidayChecks">
+    <Type Name="HolidayCheck">
+      <Column Name="HolidayCheckID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StaffID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Pending" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Approved" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Cancel" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Staff_HolidayCheck" Member="Staff" ThisKey="StaffID" OtherKey="StaffID" Type="Staff" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Role" Member="Roles">
+    <Type Name="Role">
+      <Column Name="RoleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Role_Staff" Member="Staffs" ThisKey="RoleID" OtherKey="RoleID" Type="Staff" />
+    </Type>
+  </Table>
+</Database>

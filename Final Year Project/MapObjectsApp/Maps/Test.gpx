@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.477" lon="-0.003"></trkpt>
+            <trkpt lat="51.480" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.003"></trkpt>
+            <trkpt lat="51.483" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.003"></trkpt>
+            <trkpt lat="51.486" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.006"></trkpt>
+            <trkpt lat="51.483" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.006"></trkpt>
+            <trkpt lat="51.486" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.009"></trkpt>
+            <trkpt lat="51.483" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.009"></trkpt>
+            <trkpt lat="51.486" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.486" lon="-0.009"></trkpt>
+            <trkpt lat="51.489" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.003"></trkpt>
+            <trkpt lat="51.480" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.006"></trkpt>
+            <trkpt lat="51.480" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.003"></trkpt>
+            <trkpt lat="51.483" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.006"></trkpt>
+            <trkpt lat="51.483" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    
+    <trk>
+        <trkseg>
+            <trkpt lat="51.486" lon="-0.003"></trkpt>
+            <trkpt lat="51.486" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.486" lon="-0.006"></trkpt>
+            <trkpt lat="51.486" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    
+    
+    <trk>
+        <name>Point 0</name>
+        <trkseg>
+            <trkpt lat="51.477" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 1</name>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 2</name>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 3</name>
+        <trkseg>
+            <trkpt lat="51.486" lon="-0.003"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 4</name>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 5</name>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 6</name>
+        <trkseg>
+            <trkpt lat="51.486" lon="-0.006"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 7</name>
+        <trkseg>
+            <trkpt lat="51.480" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 8</name>
+        <trkseg>
+            <trkpt lat="51.483" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 9</name>
+        <trkseg>
+            <trkpt lat="51.486" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Point 10</name>
+        <trkseg>
+            <trkpt lat="51.489" lon="-0.009"></trkpt>
+        </trkseg>
+    </trk>
+</gpx>

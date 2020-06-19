@@ -3,7 +3,7 @@
 ### Requirements
 To create an automated holiday booking system, suggesting alternative data for fail requests
 
-It must contain: 
+###  Key Features
 * Database
 * Components
 * Web Application using ASP.NET

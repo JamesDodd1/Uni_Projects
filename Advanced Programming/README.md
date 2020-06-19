@@ -4,7 +4,7 @@
 To create a dashboard for a train containing 3 different types of display indicators containing:
 * Inheritance & interfaces
 * JUnit Testing
-* 3 Design Patterns
+* Design Patterns
 * JavaBean Components
 * Threads
 

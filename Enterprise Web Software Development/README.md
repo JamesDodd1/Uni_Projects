@@ -8,6 +8,6 @@ Working within a group, follow Agile Scrum working practices to create a secure 
 * Database
 * PDOs
 
-### Language
+### Languages
 * HTML, CSS & PHP
 * SQL

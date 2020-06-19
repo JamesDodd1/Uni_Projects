@@ -4,5 +4,4 @@
 To create an application for a local theatre company to allow ticket to be booked, seats to be selected and customers can added reviews to show 
 
 ### Languages
-* HTML, CSS & PHP
-* SQL
+* C# in .NET Framework

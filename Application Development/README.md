@@ -7,4 +7,4 @@ To create a stand alone educational game/quiz application containing:
 * Calculate the end score
 
 ### Language
-* C#
+* C# in .NET Framework

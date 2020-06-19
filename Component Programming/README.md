@@ -9,6 +9,6 @@ To create an automated holiday booking system for desktop and web, which include
 * Web Application using ASP.NET
 * Web Service (SOAP)
 
-### Language
+### Languages
 * C# in .NET Framework
 * LINQ 

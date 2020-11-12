@@ -27,7 +27,7 @@ __Indicators Types:__
 
 ## 3. Setup
 1. Open the TrainDashboard folder into a Java IDE
-2. Run the main method located in TrainDashboard/src/Main/TrainDashboard.java
+2. Run the main method located in `TrainDashboard/src/Main/TrainDashboard.java`
 
 
 ## 4. Features

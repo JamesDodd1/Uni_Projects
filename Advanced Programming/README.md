@@ -6,8 +6,9 @@ An application for a dashboard for a train on a simulated journey.
 ## Table of Contents
 1. [General Info](#1-general-info)
 2. [Technologies](#2-technologies)
-3. [Features](#3-features)
-4. [Status](#4-status)
+3. [Setup](#3-Setup)
+4. [Features](#4-features)
+5. [Status](#5-status)
 
 
 ## 1. General Info
@@ -24,7 +25,12 @@ __Indicators Types:__
 - Java (ver 15.0.1)
 
 
-## 3. Features
+## 3. Setup
+Open the TrainDashboard folder into a Java IDE
+Run the main method located in TrainDashboard/src/Main/TrainDashboard.java
+
+
+## 4. Features
 - Each type of indicator is stored as a JavaBean components
 - Multiple design patterns used
 - JUnit testing for the indicators
@@ -45,5 +51,5 @@ Dashboard display at startup
 Dashboard with custom inputs
 
 
-## 4. Status
+## 5. Status
 This program is complete

@@ -20,12 +20,12 @@
 ## 3. Features
 - 
 
-<img src="./Images/Dashboard_Startup.png" alt="Dashboard with fuel at 100%, speed at 0, temperature at 30 and door state closed" />
-<img src="./Images/Dashboard_Custom.png" alt="Dashboard with fuel at 50%, speed at 100, temperature at 45 and door state open" />
+<img src="./Images/Dashboard_Startup.png" alt="Dashboard with fuel at 100%, speed at 0, temperature at 30 and door state closed" height=300 width=auto />
+<img src="./Images/Dashboard_Custom.png" alt="Dashboard with fuel at 50%, speed at 100, temperature at 45 and door state open" height=300 width=auto />
 
 
 ## 4. Status
-
+This program is complete
 
 
 ### Requirements

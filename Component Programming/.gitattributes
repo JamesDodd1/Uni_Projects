@@ -1,3 +1,6 @@
+# Set coding language to detect
+*.css linguist-detectable=false
+
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
@@ -61,7 +64,3 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-
-
-# Set coding language to detect
-*.css linguist-detectable=false

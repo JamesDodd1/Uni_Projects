@@ -52,4 +52,4 @@ Dashboard with custom inputs
 
 
 ## 5. Status
-This program is complete
+This project is complete

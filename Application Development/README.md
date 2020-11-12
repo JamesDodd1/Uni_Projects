@@ -33,13 +33,3 @@ This application runs a quiz game, containing a variety of different question ty
 
 ## 5. Status
 This project is complete
-
-
-### Requirements
-To create a stand alone educational game/quiz application containing: 
-* 3 different types of questions
-* Question can have images 
-* Calculate the end score
-
-### Language
-* C# in .NET Framework

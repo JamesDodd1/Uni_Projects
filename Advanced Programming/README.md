@@ -31,10 +31,15 @@ __Indicators Types:__
 - Threads to seemlessly transition the indicators from their current position to a new position
 
 __Dashboard__
-<img src="./Images/Dashboard_Startup.png" alt="Dashboard with fuel at 100%, speed at 0, temperature at 30 and door state closed" height=300 width=auto />
+<p float="left">
+    <img src="./Images/Dashboard_Startup.png" alt="Dashboard with fuel at 100%, speed at 0, temperature at 30 and door state closed" height=300 width=auto />
+</p>
 Dashboard display at startup
 
-<img src="./Images/Dashboard_Custom.png" alt="Dashboard with fuel at 50%, speed at 100, temperature at 45 and door state open" height=300 width=auto />
+
+<p float="left">
+    <img src="./Images/Dashboard_Custom.png" alt="Dashboard with fuel at 50%, speed at 100, temperature at 45 and door state open" height=300 width=auto />
+</p>
 Dashboard with custom inputs
 
 

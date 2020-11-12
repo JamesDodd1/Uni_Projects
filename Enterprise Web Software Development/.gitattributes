@@ -1,0 +1,2 @@
+# Set coding language to detect
+*.ipynb linguist-detectable=false

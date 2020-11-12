@@ -1,12 +1,8 @@
 
 package Dashboard;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import static org.junit.Assert.assertEquals;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
+import static org.junit.Assert.*;
 
 
 public class BarPanelTest {
@@ -14,7 +10,7 @@ public class BarPanelTest {
     /* Declare variable */
     private BarPanel instance;
     
-    
+    /*
     public BarPanelTest() {
         
     }
@@ -38,7 +34,7 @@ public class BarPanelTest {
     public void tearDown() {
         
     }
-    
+    */
     
     /* Testing */
     @Test

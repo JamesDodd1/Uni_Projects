@@ -1,5 +1,2 @@
-# Auto detect text files and perform LF normalization
-#* text=auto
-
 # Set coding language to detect
-#* linguist-detectable=false
+* linguist-detectable=false

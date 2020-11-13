@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,7 +39,8 @@ namespace QuizCoursework
         public void DisplayScores(String scores)
         {
             /* Connect to database */
-            String link = @"Provider=Microsoft.JET.OLEDB.4.0;Data Source=L:\App Dev\Coursework\QuizCoursework\ScoresDatabase.mdb";
+            string path = Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()));
+            String link = @"Provider=Microsoft.JET.OLEDB.4.0;Data Source=" + path + @"\..\ScoresDatabase.mdb";
             using (OleDbConnection connection = new OleDbConnection(link))
             {
                 connection.Open();

@@ -371,43 +371,49 @@ namespace QuizCoursework
 
         public void ZoomImage()
         {
-            imgHeight = Image.FromFile(zoomImg).Height;
-            imgWidth = Image.FromFile(zoomImg).Width;
-
-            int dx = (imgWidth - 100) / 100;    // Change in width
-            int dy = (imgHeight - 100) / 100;   // Change in height
-
-            run = true;
-
-            /* Shrinks image */
-            while (run)
+            try
             {
-                for (int i = 0; i < 50; i++)
-                {
-                    if (imgWidth > imgHeight)
-                    {
-                        if (imgWidth == 100 || isTimeUp)
-                        {
-                            run = false;
-                            break;
-                        }
-                    }
-                    else
-                    {
-                        if (imgHeight == 100 || isTimeUp)
-                        {
-                            run = false;
-                            break;
-                        }
-                    }
+                var img = new System.IO.MemoryStream(new System.Net.WebClient().DownloadData(zoomImg));
 
-                    imgWidth -= dx;     // Reduce height
-                    imgHeight -= dy;    // Reduce width
-                    Invalidate();       // Redraws 
-                    Thread.Sleep(50);   // Sleeps for 50 milliseconds
+                imgHeight = Image.FromStream(img).Height;
+                imgWidth = Image.FromStream(img).Width;
+
+                int dx = (imgWidth - 100) / 100;    // Change in width
+                int dy = (imgHeight - 100) / 100;   // Change in height
+
+                run = true;
+
+                /* Shrinks image */
+                while (run)
+                {
+                    for (int i = 0; i < 50; i++)
+                    {
+                        if (imgWidth > imgHeight)
+                        {
+                            if (imgWidth == 100 || isTimeUp)
+                            {
+                                run = false;
+                                break;
+                            }
+                        }
+                        else
+                        {
+                            if (imgHeight == 100 || isTimeUp)
+                            {
+                                run = false;
+                                break;
+                            }
+                        }
+
+                        imgWidth -= dx;     // Reduce height
+                        imgHeight -= dy;    // Reduce width
+                        Invalidate();       // Redraws 
+                        Thread.Sleep(50);   // Sleeps for 50 milliseconds
+                    }
                 }
+                KillThreads();
             }
-            KillThreads();
+            catch { }
         }
 
 
@@ -444,9 +450,11 @@ namespace QuizCoursework
             /* Paints image */
             if (imagePaint)
             {
+                var img = new System.IO.MemoryStream(new System.Net.WebClient().DownloadData(zoomImg));
+
                 this.DoubleBuffered = true;
                 Graphics g = e.Graphics;
-                g.DrawImage(Image.FromFile(zoomImg), 15, 50, imgWidth, imgHeight);
+                g.DrawImage(Image.FromStream(img), 15, 50, imgWidth, imgHeight);
                 
                 /* Closes threads */
                 if (imgWidth <= 100 || imgHeight <= 100)
@@ -640,7 +648,7 @@ namespace QuizCoursework
         private static String image1 = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg";
         private static String image2 = "http://tokko.co.uk/wp-content/uploads/2018/05/TableTennisForFun_EVENT_400px-X-300px.jpg";
         private static String image3 = "https://www.pedagonet.com/brain/manysquares.jpg";
-        private static String zoomImg = "Ostrich.jpg";
+        private static String zoomImg = "https://cdn.mos.cms.futurecdn.net/tMnjLRtEm47ueTPt9Rkyxd.jpg";
 
         private Thread zoom;
         private Thread time;
@@ -663,7 +671,7 @@ namespace QuizCoursework
         private static MultipleChoice q4 = new MultipleChoice("What is 3 + 3?", "3", "4", "5", "6", 4);
         private static MultipleChoice q5 = new MultipleChoice("What is this?", image1, "The moon", "The Sun", "The Sea", "The Sky", 1);
         private static Lists q6 = new Lists("What sport's this?", image2, "Tennis", "Ping Pong", "Table Tennis", "Badminton", false, true, true, false);
-        private static MultipleChoice q7 = new MultipleChoice("In 5 secs, guess the image", "Ostrich.jpg", "Mud", "Tea", "Ostrich", "Nothing", 3);
+        private static MultipleChoice q7 = new MultipleChoice("In 5 secs, guess the image", zoomImg, "Mud", "Tea", "Ostrich", "Nothing", 3);
         private static Lists q8 = new Lists("What is the fastest living animal?", "Tiger", "Cheater", "Peregrine Falcon", "Black Marlin", false, false, true, false);
         private static Lists q9 = new Lists("How many squares are there?", image3, "36", "40", "44", "48", false, true, false, false);
         private static MultipleChoice q10 = new MultipleChoice("In 5 secs, what's 25 x 12?", "250", "325", "300", "400", 3);

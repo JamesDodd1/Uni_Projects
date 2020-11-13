@@ -16,7 +16,7 @@ This application runs a quiz game, containing a variety of different question ty
 
 
 ## 2. Technologies
-- C# in .NET Framework
+- C# in .NET Framework (ver 16.7.7)
 
 
 ## 3. Setup

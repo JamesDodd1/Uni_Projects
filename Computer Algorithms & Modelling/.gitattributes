@@ -1,0 +1,2 @@
+# Set coding language to detect
+*.java linguist-detectable=true

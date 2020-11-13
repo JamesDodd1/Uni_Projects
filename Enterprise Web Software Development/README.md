@@ -30,10 +30,10 @@ The website was designed to be a secure web-enabled role-based system for collec
 2. Open Command Line (Windows) or Terminal (Mac) 
 3. Enter the commands: 
 ```
-cd [path to public_html]/public_html
+cd [path to]/public_html
 php -S 127.0.0.1:8000
 ```
-4. Onen an internet browser and search `http://localhost:8000/[File Name].php`
+4. Open an internet browser and search `http://localhost:8000/[File Name].php`
 
 
 ## 4. Features

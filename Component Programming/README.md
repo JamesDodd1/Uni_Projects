@@ -16,15 +16,16 @@ This program contains both a desktop and a web application.  The desktop system 
 
 
 ## 2. Technologies
-- C# in .NET Framework
+- C# in .NET Framework (ver 16.7.7)
 - LINQ
 
 
 ## 3. Setup
 1. Download HolidayBooking folder
 2. Open the `HolidaySystem.sln` file with the folder
+3. To run the desktop app select "Admin System" from menu bar or "Staff System" for the website
 
-__NOTE:__ The application may not fully work as it is not connected to the database
+__NOTE:__ The application may not fully work as the database is not longer active
 
 
 ## 4. Features

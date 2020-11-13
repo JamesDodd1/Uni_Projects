@@ -24,7 +24,7 @@ My name is James Dodd, I graduated from the University of Greenwich in 2020, whe
 Within this repository there is a folder with the name of Module I have completed.  Each folder contain the code for that specific coursework and has a README file, which goes into detail about the coursework and how (if possible) to run the code.  
 
 
-## 3. Modules
+### 3. Modules
 1. Advanced Programming
 2. Application Development
 3. Component Programming

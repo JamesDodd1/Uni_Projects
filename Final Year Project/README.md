@@ -17,7 +17,7 @@ The iPhone mobile app inports paths and rooms for part of the University of Gree
 
 ## 2. Technologies
 - Swift
-- [HERE SDK for iOS](https://developer.here.com/documentation/ios-premium/3.16/dev_guide/topics/app-run-simple.html) (ver 3.16)
+- [HERE SDK for iOS](https://developer.here.com/documentation/ios-premium/3.16/dev_guide/topics/overview.html) (ver 3.16)
 
 
 ## 3. Setup

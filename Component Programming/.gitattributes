@@ -1,4 +1,4 @@
 # Set coding language to detect
 * linguist-detectable=false
-#*.aspx linguist-detectable=true
-#*.cs linguist-detectable=true
+*.aspx linguist-detectable=true
+*.cs linguist-detectable=true

@@ -3,4 +3,4 @@
 #*.css linguist-detectable=false
 #*.html linguist-detectable=false
 #*.ipynb linguist-detectable=false
-#*.php linguist-detectable=true
+*.php linguist-detectable=true

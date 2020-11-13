@@ -1,6 +1,6 @@
 # Enterprise Web Software Development Coursework
 
-
+Working within a group of eight and following Agile Scrum practiced, we created the website for a fictional University's staff to be able to post information on.
 
 
 ## Table of Contents
@@ -12,7 +12,7 @@
 
 
 ## 1. General Info
-
+The website was designed to be a secure web-enabled role-based system for collecting ideas for improvement from staff in a large University.  A database is used to store information relating to the website and data is securely store within it. 
 
 
 ## 2. Technologies
@@ -37,21 +37,16 @@ php -S 127.0.0.1:8000
 
 
 ## 4. Features
-- 
+- Database storing user details and forum data
+- PHP-PDO's used for database connections
+- Password encryption and salt
+- Forum posts can be creates, commented on, liked or disliked etc.
+- Files can be uploaded to the database
+- CSV downloads of data from the database
+- Deviced adaptability 
+
+__NOTE:__ This website may not run correctly when downloaded as it won't be connected to the database
 
 
 ## 5. Status
 This project is complete
-
-
-### Requirements
-Working within a group, follow Agile Scrum working practices to create a secure web-enabled role-based system for collecting ideas for improvement from staff in a large University
-
-### Key Features
-* Agile Scrum 
-* Database
-* PDOs
-
-### Languages
-* HTML, CSS & PHP
-* SQL

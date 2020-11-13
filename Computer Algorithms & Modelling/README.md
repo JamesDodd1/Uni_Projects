@@ -1,6 +1,6 @@
 # Computer Algorithms & Modelling Coursework
 
-This application calculates regression of house prices and creates tables and graphs to display the results.
+This application calculates the regression of house prices and creates tables and graphs to display the results.
 
 
 ## Table of Contents

@@ -4,6 +4,10 @@ This repository contains my coursework code for multiple modules I have complete
 
 
 ## Table of Contents
+1. [About Me](#1-about-me)
+2. [General Info](#2-general-info)
+3. [Modules](#3-modules)
+3.1. [Advanced Programming](#-3-1-advanced-programming)
 
 
 ## 1. About Me

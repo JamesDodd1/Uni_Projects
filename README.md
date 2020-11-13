@@ -13,7 +13,7 @@ This repository contains my coursework code for multiple modules I have complete
     4. [Computer Algorithms & Modelling](#3-modules)
     5. [Enterprise Web Software Development](#3-modules)
     6. [Final Year Project](#3-modules)
-    7. [Systems Development Project](##3-system-development-project)
+    7. [Systems Development Project](#3-systems-development-project)
 
 
 ## 1. About Me
@@ -24,7 +24,7 @@ My name is James Dodd, I graduated from the University of Greenwich in 2020, whe
 Within this repository there is a folder with the name of Module I have completed.  Each folder contain the code for that specific coursework and has a README file, which goes into detail about the coursework and how (if possible) to run the code.  
 
 
-### 3. Modules
+## 3. Modules
 1. Advanced Programming
 2. Application Development
 3. Component Programming

@@ -1,14 +1,38 @@
 # Component Programming Coursework
 
-### Requirements
-To create an automated holiday booking system for desktop and web, which includes contraint checkings and suggests alternative dates for failed requests
+A desktop and web application to book holidays for a virtual company's employees.
 
-### Key Features
-* Database
-* Components
-* Web Application using ASP.NET
-* Web Service (SOAP)
 
-### Languages
-* C# in .NET Framework
-* LINQ 
+## Table of Contents
+1. [General Info](#1-general-info)
+2. [Technologies](#2-technologies)
+3. [Setup](#3-Setup)
+4. [Features](#4-features)
+5. [Status](#5-status)
+
+
+## 1. General Info
+This program contains both a desktop and a web application.  The desktop system has to allow an admin to be able to login, while both allow standard employees to login.  A standard employee is able to request dates to book a holiday, which are validated by checking the booking constraints.  An admin has the ability to accept or reject any booking.
+
+
+## 2. Technologies
+- C# in .NET Framework
+- LINQ
+
+
+## 3. Setup
+1. Download HolidayBooking folder
+2. Open the `HolidaySystem.sln` file with the folder
+
+__NOTE:__ The application may not fully work as it is not connected to the database
+
+
+## 4. Features
+- Web app using ASP.NET
+- Web Service (SOAP)
+- Components used to store contraints and sorting algorithms 
+- Data stored within database and retrieved using LINQ commands
+
+
+## 5. Status
+This project is complete

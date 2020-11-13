@@ -23,9 +23,9 @@ This program contains both a desktop and a web application.  The desktop system 
 ## 3. Setup
 1. Download HolidayBooking folder
 2. Open the `HolidaySystem.sln` file with the folder
-3. To run the system:
-- __Desktop App:__ Select either "Admin System" or "Staff System" from the menu bar then compile
-- __Website:__ Expand the web app project in the Solution Explorer, select a web page, right click and select "View in Browser"
+3. To run the system: <br />
+    - __Desktop App:__ Select either "Admin System" or "Staff System" from the menu bar then compile
+    - __Website:__ Expand the web app project in the Solution Explorer, select a web page, right click and select "View in Browser"
 
 __NOTE:__ The application may not fully work as the database is not longer active
 

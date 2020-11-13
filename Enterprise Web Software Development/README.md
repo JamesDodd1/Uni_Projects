@@ -1,6 +1,6 @@
 # Enterprise Web Software Development Coursework
 
-Working within a group of eight and following Agile Scrum practiced, we created the website for a fictional University's staff to be able to post information on.
+Working within a group of eight and following Agile Scrum practiced, we created a forum website for a fictional University's staff to be able to post information on.
 
 
 ## Table of Contents

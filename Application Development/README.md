@@ -20,7 +20,7 @@ This application runs a quiz game, containing a variety of different question ty
 
 
 ## 3. Setup
-1. Download the QuizCoursework Folder
+1. Download the QuizCoursework folder
 2. Open the `QuizCoursework.sln` file within the folder
 
 

@@ -1,5 +1,5 @@
 # Set coding language to detect
-*.css linguist-detectable=false
-*.html linguist-detectable=false
-*.ipynb linguist-detectable=false
-*.php linguist-detectable=true
+#*.css linguist-detectable=false
+#*.html linguist-detectable=false
+#*.ipynb linguist-detectable=false
+#*.php linguist-detectable=true

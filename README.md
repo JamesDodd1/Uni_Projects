@@ -21,7 +21,7 @@ Within this repository there is a folder with the name of Module I have complete
 1. [Advanced Programming](#3-1-advanced-programming)
 2. [Application Development](#3-2-application-development)
 3. [Component Programming](#3-3-component-programming)
-4. [Computer Algorithms & Modelling](#3-4-computer-algorithms-&-modelling)
+4. [Computer Algorithms & Modelling](#3-4-computer-algorithms-modelling)
 5. [Enterprise Web Software Development](#3-5-enterprise-web-software-development)
 6. [Final Year Project](#3-6-final-year-project)
 7. [Systems Development Project](#3-7-systems-development-project)

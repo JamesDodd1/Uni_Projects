@@ -1,4 +1,4 @@
-﻿namespace Register
+﻿namespace AdminSystem
 {
     partial class RegisterForm
     {

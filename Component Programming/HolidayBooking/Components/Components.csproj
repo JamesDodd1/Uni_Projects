@@ -81,7 +81,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Holiday Library\Libraries.csproj">
+    <ProjectReference Include="..\HolidayLibrary\Libraries.csproj">
       <Project>{9411502e-641a-40c2-bd8a-1b850c6536ad}</Project>
       <Name>Libraries</Name>
     </ProjectReference>

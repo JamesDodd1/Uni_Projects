@@ -69,8 +69,8 @@
       <Project>{AE02027E-47FD-462F-9675-74E2EE4F5B61}</Project>
       <Name>Components</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Holiday Library\Libraries.csproj">
-      <Project>{9411502E-641A-40C2-BD8A-1B850C6536AD}</Project>
+    <ProjectReference Include="..\HolidayLibrary\Libraries.csproj">
+      <Project>{9411502e-641a-40c2-bd8a-1b850c6536ad}</Project>
       <Name>Libraries</Name>
     </ProjectReference>
   </ItemGroup>

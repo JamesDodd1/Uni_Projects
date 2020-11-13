@@ -148,7 +148,7 @@
       <Project>{3dfc7670-aae7-4d55-8134-affc758d14ea}</Project>
       <Name>Database</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Holiday Library\Libraries.csproj">
+    <ProjectReference Include="..\HolidayLibrary\Libraries.csproj">
       <Project>{9411502e-641a-40c2-bd8a-1b850c6536ad}</Project>
       <Name>Libraries</Name>
     </ProjectReference>

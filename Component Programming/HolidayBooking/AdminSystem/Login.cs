@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Register
+namespace AdminSystem
 {
     public partial class LoginForm : Form
     {

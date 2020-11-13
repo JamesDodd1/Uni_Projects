@@ -4,7 +4,7 @@ using System;
 using System.Windows.Forms;
 
 
-namespace Register
+namespace AdminSystem
 {
     public partial class EditUserForm : Form
     {

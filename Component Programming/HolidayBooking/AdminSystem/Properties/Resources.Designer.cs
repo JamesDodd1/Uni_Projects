@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Register.Properties
+namespace AdminSystem.Properties
 {
 
 

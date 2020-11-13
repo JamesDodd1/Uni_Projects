@@ -1,2 +1,2 @@
 # Set coding language to detect
-*.cs linguist-detectable=true
+#*.cs linguist-detectable=true

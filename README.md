@@ -6,15 +6,15 @@ This repository contains my coursework code for multiple modules I have complete
 ## Table of Contents
 
 
-## About Me
+## 1. About Me
 My name is James Dodd, I graduated from the University of Greenwich in 2020, where I studied Software Engineering, achieving 1st Class Degree.
 
 
-## General Info
+## 2. General Info
 Within this repository there is a folder with the name of Module I have completed.  Each folder contain the code for that specific coursework and has a README file, which goes into detail about the coursework and how (if possible) to run the code.  
 
 
-## Modules
+## 3. Modules
 1. Advanced Programming
 2. Application Development
 3. Component Programming
@@ -24,36 +24,36 @@ Within this repository there is a folder with the name of Module I have complete
 7. Systems Development Project
 
 
-### Advanced Programming
-__Summary:__ To create dashboard for a train on a simulated journey
+### 3.1 Advanced Programming
+__Summary:__ To create dashboard for a train on a simulated journey <br />
 __Languages:__ Java
 
 
-### Application Development
-__Summary:__ To create a quiz with multiple question types
+### 3.2 Application Development
+__Summary:__ To create a quiz with multiple question types <br />
 __Languages:__ C# in .NET Framework
 
 
-### Component Programming
-__Summary:__ To create a desktop and web application to book holidays for a virtual company's employees
+### 3.3 Component Programming
+__Summary:__ To create a desktop and web application to book holidays for a virtual company's employees <br />
 __Languages:__ C# in .NET Framework and LINQ
 
 
-### Computer Algorithms & Modelling
-__Summary:__ To create a program which calculates the regression of house prices
+### 3.4 Computer Algorithms & Modelling
+__Summary:__ To create a program which calculates the regression of house prices <br />
 __Languages:__ Java
 
 
-### Enterprise Web Software Development
-__Summary:__ To create a forum website for a fictional University's staff
+### 3.5 Enterprise Web Software Development
+__Summary:__ To create a forum website for a fictional University's staff <br />
 __Languages:__ PHP, SQL and HTML & CSS
 
 
-### Final Year Project
-__Summary:__ To create a application which extended street map's route plotting functionality to allow indoor routes to be pathed to and from
+### 3.6 Final Year Project
+__Summary:__ To create a application which extended street map's route plotting functionality to allow indoor routes to be pathed to and from <br />
 __Languages:__ Swift
 
 
-### Systems Development Project
-__Summary:__ To create a theatre ticket booking system
+### 3.7 Systems Development Project
+__Summary:__ To create a theatre ticket booking system <br />
 __Languages:__ C# in .NET Framework

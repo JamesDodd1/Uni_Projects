@@ -2,4 +2,4 @@
 * text=auto
 
 # Set coding language to detect
-*.css linguist-detectable=false
+* linguist-detectable=false

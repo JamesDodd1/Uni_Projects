@@ -7,13 +7,6 @@ This repository contains my coursework code for multiple modules I have complete
 1. [About Me](#1-about-me)
 2. [General Info](#2-general-info)
 3. [Modules](#3-modules)
-    1. [Advanced Programming](#3-1-modules)
-    2. [Application Development](#3-2-modules)
-    3. [Component Programming](#3-3-modules)
-    4. [Computer Algorithms & Modelling](#3-4-modules)
-    5. [Enterprise Web Software Development](#3-5-modules)
-    6. [Final Year Project](#3-6-modules)
-    7. [Systems Development Project](#3-7-systems-development-project)
 
 
 ## 1. About Me
@@ -25,13 +18,13 @@ Within this repository there is a folder with the name of Module I have complete
 
 
 ## 3. Modules
-1. Advanced Programming
-2. Application Development
-3. Component Programming
-4. Computer Algorithms & Modelling
-5. Enterprise Web Software Development
-6. Final Year Project
-7. Systems Development Project
+1. [Advanced Programming](#3-1-modules)
+2. [Application Development](#3-2-modules)
+3. [Component Programming](#3-3-modules)
+4. [Computer Algorithms & Modelling](#3-4-modules)
+5. [Enterprise Web Software Development](#3-5-modules)
+6. [Final Year Project](#3-6-modules)
+7. [Systems Development Project](#3-7-systems-development-project)
 
 
 ### 3-1. Advanced Programming

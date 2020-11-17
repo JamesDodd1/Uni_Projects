@@ -9,6 +9,7 @@ The program allows tickets to be booked for a theatre's shows.
 3. [Setup](#3-Setup)
 4. [Features](#4-features)
 5. [Status](#5-status)
+6. [Contributors](#6-contributors)
 
 
 ## 1. General Info
@@ -35,3 +36,10 @@ __NOTE:__ Not all features may work as the database is no longer active
 
 ## 5. Status
 This project is complete
+
+
+## 6. Contributors
+- James Dodd
+- Sam Town
+- Ellie Eva Fonda
+- Magdalena Kaskow

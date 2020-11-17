@@ -55,3 +55,14 @@ __NOTE:__ Some feature may not work as the database is no long active
 
 ## 6. Status
 This project is complete
+
+
+## 7. Contributors
+- James Dodd
+- Sam Town
+- Aleksandrs Krivickis
+- Anirudhan Anbuchezhian
+- Johan Rodriguez Garcia
+- Nisheeka Nynan
+- Natalia Flindall
+- Jake Marchant
